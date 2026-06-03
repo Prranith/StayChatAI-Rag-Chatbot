@@ -1,0 +1,7 @@
+# This directory holds the persisted FAISS vector index.
+# The binary files (index.faiss, chunks.json) are excluded from git via .gitignore
+# because they are large and must be regenerated locally by running:
+#
+#   python app/ingest.py
+#
+# This .gitkeep file ensures the directory structure is preserved in the repository.
